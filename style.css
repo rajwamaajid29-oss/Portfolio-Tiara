@@ -44,12 +44,11 @@ body{
 ========================= */
 .navbar{
   width: 100%;
-  height: 95px;
 
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 800;
 
   display: flex;
   align-items: center;
@@ -73,8 +72,8 @@ body{
    LOGO
 ========================= */
 .logo h1{
-  font-size: 52px;
-  font-weight: 700;
+  font-size: 45px;
+  font-weight: 500;
 
   font-family: 'Playfair Display', serif;
 
@@ -93,7 +92,7 @@ body{
 
   color: rgba(255,255,255,0.7);
 
-  font-size: 10px;
+  font-size: 8px;
   letter-spacing: 6px;
 
   margin-top: 8px;
@@ -109,6 +108,10 @@ body{
 
   list-style: none;
 }
+.nav-right a {
+ font-size: 10px;
+  font-weight: 700; 
+}
 
 .nav-links a{
   position: relative;
@@ -117,7 +120,7 @@ body{
 
   color: white;
 
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -305,7 +308,7 @@ body{
 
 /* TITLE */
 .home-content h1{
-  font-size: 78px;
+  font-size: 60px;
   line-height: 1.08;
 
   color: white;
@@ -323,7 +326,7 @@ body{
 .home-content p{
   color: rgba(255,255,255,0.82);
 
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.9;
 
   max-width: 580px;
@@ -507,22 +510,16 @@ body{
    ABOUT
 ========================= */
 .about{
-  width: 100%;
-  min-height: 100vh;
-
-  background: #f6f1eb;
-
-  padding: 140px 90px;
+  padding: 80px 10px;
 
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 80px;
+  justify-content: center;
 
-  position: relative;
-  z-index: 2;
+  gap: 45px;
+
+  background: #f6f1eb;
 }
-
 /* =========================
    IMAGE
 ========================= */
@@ -538,9 +535,8 @@ body{
 
 /* FOTO */
 .about-image img{
-  width: 100%;
   max-width: 340px;
-  height: 450px;
+  height: 65vh;
 
   object-fit: cover;
 
@@ -779,7 +775,8 @@ body{
 ========================= */
 .gallery{
   width: 100%;
-  padding: 140px 90px;
+  height: auto;
+  padding: 90px 90px;
 
   background:
     linear-gradient(
@@ -840,7 +837,7 @@ body{
 
   gap: 16px;
 
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 /* BUTTON */
